@@ -182,7 +182,14 @@ def addTorrent(link):
     logger.debug('addTorrent(%s)' % link)
 
     qbclient = qbittorrentclient()
-    args = {'urls': link, 'savepath': headphones.CONFIG.DOWNLOAD_TORRENT_DIR}
+
+		args = {'urls': link}
+
+	logger.debug('headphones.CONFIG.QBITTORRENT_HANDLE_SAVEPATH(%s)' % headphones.CONFIG.QBITTORRENT_HANDLE_SAVEPATH)
+
+	if headphones.CONFIG.QBITTORRENT_HANDLE_SAVEPATH
+		args['savepath']: headphones.CONFIG.DOWNLOAD_TORRENT_DIR
+
     if headphones.CONFIG.QBITTORRENT_LABEL:
         args['category'] = headphones.CONFIG.QBITTORRENT_LABEL
 

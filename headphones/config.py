@@ -236,6 +236,7 @@ _CONFIG_DEFINITIONS = {
     'QBITTORRENT_LABEL': (str, 'QBitTorrent', ''),
     'QBITTORRENT_PASSWORD': (str, 'QBitTorrent', ''),
     'QBITTORRENT_USERNAME': (str, 'QBitTorrent', ''),
+	'QBITTORRENT_HANDLE_SAVEPATH': (bool_int, 'QBitTorrent', 1),
     'RENAME_FILES': (int, 'General', 0),
     'RENAME_UNPROCESSED': (bool_int, 'General', 1),
     'RENAME_FROZEN': (bool_int, 'General', 1),
