@@ -1161,7 +1161,7 @@ class WebInterface(object):
             "qbittorrent_username": headphones.CONFIG.QBITTORRENT_USERNAME,
             "qbittorrent_password": headphones.CONFIG.QBITTORRENT_PASSWORD,
             "qbittorrent_label": headphones.CONFIG.QBITTORRENT_LABEL,
-			"qbittorrent_handle_savepath": headphones.CONFIG.QBITTORRENT_HANDLE_SAVEPATH,
+            "qbittorrent_handle_savepath": headphones.CONFIG.QBITTORRENT_HANDLE_SAVEPATH,
             "transmission_host": headphones.CONFIG.TRANSMISSION_HOST,
             "transmission_username": headphones.CONFIG.TRANSMISSION_USERNAME,
             "transmission_password": headphones.CONFIG.TRANSMISSION_PASSWORD,
